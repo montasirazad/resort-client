@@ -1,5 +1,5 @@
 import './App.css';
-import vid from './image/beach.mp4'
+import sunsetVid from './image/sunset.mp4'
 
 function App() {
 
@@ -8,7 +8,7 @@ function App() {
   return (
     <div  >
        
-       <video src={vid} autoPlay loop muted style={{width:'100%', height:'100vh',objectFit:'cover'}}/>
+       <video src={sunsetVid} autoPlay loop muted style={{width:'100%', height:'100vh',objectFit:'cover'}}/>
     </div>
   );
 }
