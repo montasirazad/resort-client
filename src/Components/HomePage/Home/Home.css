@@ -1,0 +1,9 @@
+.homepageDiv {
+     display: flex;
+    background-image: url('../../../image/homePage.jpg');
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+     
+
+}

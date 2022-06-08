@@ -1,5 +1,6 @@
 import './App.css';
-import sunsetVid from './image/sunset.mp4'
+import Home from './Components/HomePage/Home/Home';
+
 
 function App() {
 
@@ -7,8 +8,8 @@ function App() {
 
   return (
     <div  >
-       
-       <video src={sunsetVid} autoPlay loop muted style={{width:'100%', height:'100vh',objectFit:'cover'}}/>
+      <Home />
+
     </div>
   );
 }
