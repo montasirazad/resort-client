@@ -1,0 +1,56 @@
+ .main-div {
+     display: flex;
+ }
+
+ .title-div h1 {
+    margin-left: 100px;
+     -webkit-text-stroke: 1px yellow;
+     color: transparent;
+
+
+ }
+
+ nav {
+     line-height: 50px;
+     margin-left: auto;
+     margin-right: 50px;
+
+ }
+
+ nav ul li {
+     list-style: none;
+     display: inline-block;
+     margin-left: 25px;
+
+ }
+
+ nav ul a {
+     font-size: 20px;
+     color: transparent;
+     -webkit-text-stroke: 1px yellow;
+     color: transparent;
+     text-decoration: none;
+ }
+
+ @media screen and (max-width: 1000px) {
+     .main-div {
+         display: flex;
+         justify-content: center;
+         flex-direction: column;
+
+     }
+     .main-div h1 {
+        font-size: 35px;
+        color: transparent;
+        -webkit-text-stroke: 1px yellow;
+   
+   
+    }
+     .title-div{
+        /* text-align: center; */
+         border: 2px solid red;
+          
+     }
+     
+       
+ }

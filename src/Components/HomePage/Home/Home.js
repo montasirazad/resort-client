@@ -1,17 +1,16 @@
 import React from 'react';
-import './Home.css';
-import homePage from '../../../image/homePage.jpg'
 import MenuBar from '../../Shared/MenuBar/MenuBar';
+import './Home.css';
 
 const Home = () => {
     return (
 
-         
-            
-             <div className='homepageDiv'>
-         <MenuBar/>
+
+
+        <div className='homepageDiv'>
+            <MenuBar />
         </div>
-        
+
     );
 };
 
