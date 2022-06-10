@@ -1,4 +1,5 @@
- import Home from './Components/HomePage/Home/Home';
+import AuthProvider from './Components/context/AuthProvider';
+import Home from './Components/HomePage/Home/Home';
 
 
 function App() {
@@ -6,10 +7,10 @@ function App() {
 
 
   return (
-    <div  >
+    <AuthProvider  >
       <Home />
 
-    </div>
+    </AuthProvider>
   );
 }
 
