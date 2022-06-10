@@ -1,5 +1,5 @@
 # Dependencies 
-     @emotion/styled: ^11.8.1\
+     @emotion/styled: ^11.8.1. \
      @mui/icons-material: ^5.8.3\
      @mui/material: ^5.8.3\
      @mui/styled-engine-sc: ^5.8.0\
