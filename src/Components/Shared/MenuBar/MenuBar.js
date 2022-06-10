@@ -14,7 +14,7 @@ const MenuBar = () => {
                 <ul>
                     <li><Link to='/'>HOME</Link></li>
                     <li><Link to='/package'>PACKAGE</Link></li>
-                    <li><Link to='/room'>ROOM</Link></li>
+                    <li><Link to='/rooms'>ROOM</Link></li>
                     <li><Link to='/about'>ABOUT</Link></li>
                     <li><Link to='/login'>LOG IN</Link></li>
                 </ul>

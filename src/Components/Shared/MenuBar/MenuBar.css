@@ -1,5 +1,7 @@
  .main-div {
      display: flex;
+     background-color: black;
+     opacity: .6;
  }
 
  .title-div h1 {
@@ -33,7 +35,7 @@
  }
 
  nav ul a:hover {
-     background-color: black;
+     background-color: royalblue;
      padding: 2px;
      border-radius: 3px;
 }
