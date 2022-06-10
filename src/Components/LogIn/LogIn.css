@@ -1,9 +1,35 @@
-.login-page{
+.login-page {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
+    background-image: url('../../image/colorBG.jpg');
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
-.test-div{
-    padding: 70px 0;
-    text-align: center;
+.test-div {
+    display: grid;
+    align-items: center;
+    float: left;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px;
+}
+
+@media screen and (max-width: 1000px) {
+    .login-page {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-image: url('../../image/colorBG.jpg');
+        height: 100vh;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .test-div {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: 25px;
+    }
 }
