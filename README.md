@@ -1,4 +1,4 @@
-# Resort-website-client
+# Eco-Resort-website-client
 
 # Dependencies 
      Bootstrap5
