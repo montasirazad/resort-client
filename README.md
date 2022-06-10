@@ -1,17 +1,17 @@
 # Dependencies 
-     @emotion/styled: ^11.8.1. \
-     @mui/icons-material: ^5.8.3\
-     @mui/material: ^5.8.3\
-     @mui/styled-engine-sc: ^5.8.0\
-     @mui/x-date-pickers: ^5.0.0-alpha.5\
-     date-fns: ^2.28.0\
-     firebase: ^9.8.3\
-     react: ^18.1.0\
-     react-dom: ^18.1.0\
-     react-router-dom: ^6.3.0\
-     react-scripts: 5.0.1\
-     styled-components: ^5.3.5\
-     web-vitals: ^2.1.0\
+     @emotion/styled: ^11.8.1 
+     @mui/icons-material: ^5.8.3 
+     @mui/material: ^5.8.3
+     @mui/styled-engine-sc: ^5.8.0
+     @mui/x-date-pickers: ^5.0.0-alpha.5
+     date-fns: ^2.28.0
+     firebase: ^9.8.3
+     react: ^18.1.0
+     react-dom: ^18.1.0
+     react-router-dom: ^6.3.0
+     react-scripts: 5.0.1
+     styled-components: ^5.3.5
+     web-vitals: ^2.1.0
  
 
 
