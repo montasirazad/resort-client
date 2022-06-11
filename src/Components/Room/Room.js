@@ -1,18 +1,18 @@
-import React from 'react';
+import CelebrationIcon from '@mui/icons-material/Celebration';
+import ConnectedTvIcon from '@mui/icons-material/ConnectedTv';
+import LocalBarIcon from '@mui/icons-material/LocalBar';
+import PoolIcon from '@mui/icons-material/Pool';
+import RestaurantMenuIcon from '@mui/icons-material/RestaurantMenu';
+import SignalWifi4BarIcon from '@mui/icons-material/SignalWifi4Bar';
 import { CardActionArea } from '@mui/material';
+import Button from '@mui/material/Button';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
-import SignalWifi4BarIcon from '@mui/icons-material/SignalWifi4Bar';
-import ConnectedTvIcon from '@mui/icons-material/ConnectedTv';
-import PoolIcon from '@mui/icons-material/Pool';
-import RestaurantMenuIcon from '@mui/icons-material/RestaurantMenu';
-import LocalBarIcon from '@mui/icons-material/LocalBar';
-import CelebrationIcon from '@mui/icons-material/Celebration';
+import { Link } from 'react-router-dom';
 import './Room.css';
-
+ 
 
 
 
@@ -20,6 +20,8 @@ import './Room.css';
 const Room = (props) => {
 
     const { name, area, size, person, image, description } = props.room;
+
+    
 
     return (
 
@@ -35,12 +37,12 @@ const Room = (props) => {
                     <CardContent>
                         <div>
                             <h3 className='text-danger'>
-                                <SignalWifi4BarIcon/> |
-                                <ConnectedTvIcon/> |
-                                <PoolIcon/> |
-                                <RestaurantMenuIcon/> |
-                                <LocalBarIcon/> |
-                                <CelebrationIcon/>
+                                <SignalWifi4BarIcon /> |
+                                <ConnectedTvIcon /> |
+                                <PoolIcon /> |
+                                <RestaurantMenuIcon /> |
+                                <LocalBarIcon /> |
+                                <CelebrationIcon />
                             </h3>
                         </div>
                         <Typography gutterBottom variant="h5" component="div">
@@ -59,7 +61,7 @@ const Room = (props) => {
 
                     </CardContent>
                 </CardActionArea>
-                <Button sx={{ m: 2 }} variant="outlined"  >Book This Room</Button>
+                <Link to={`/book-room/${name}`}><Button sx={{ m: 2 }} variant="outlined"  >Book This Room</Button></Link>
             </Card>
         </div>
     );
